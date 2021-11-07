@@ -1,7 +1,27 @@
 # MediaStoreAPIImages
 Through This Repo you can easily get all Images of storage or Images folder wise also
 
-Write below this code to feth all images of storage
+> Step 1: Add it in your root build.gradle at the end of repositories:
+
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+>Step 2: Add the dependency
+
+
+	dependencies {
+	        implementation 'com.github.pratikbhoir97:MediaStoreAPIImages:-SNAPSHOT'
+	}
+	
+>step 3: HOW TO USE
+
+
+Write below this code to fetch all images of storage
 	here argument context is activity context
 	
 	ArrayList<Uri> allImages = loadAllImages(context);
