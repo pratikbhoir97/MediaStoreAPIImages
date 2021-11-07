@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MediaStoreAPIUitility {
 
-    private ArrayList<String> loadImageFolderName(Context context) {
+    public ArrayList<String> loadImageFolderName(Context context) {
         ArrayList<Uri> bucketId = new ArrayList<>();
         ArrayList<String> bucketName = new ArrayList<>();
         Uri collection;
@@ -38,7 +38,7 @@ public class MediaStoreAPIUitility {
 
 
 
-    private ArrayList<Uri> loadImagesFromFolder(String folderName, Context context) {
+    public ArrayList<Uri> loadImagesFromFolder(String folderName, Context context) {
         ArrayList<Uri> imagesByFolder = new ArrayList<>();
         imagesByFolder.clear();
         ArrayList<Uri> arrayList = new ArrayList<>();
@@ -74,7 +74,7 @@ public class MediaStoreAPIUitility {
     }
 
 
-    private ArrayList<Uri> loadAllImages(Context context) {
+    public ArrayList<Uri> loadAllImages(Context context) {
         ArrayList<Uri> imagesByFolder = new ArrayList<>();
         imagesByFolder.clear();
         ArrayList<Uri> arrayList = new ArrayList<>();
