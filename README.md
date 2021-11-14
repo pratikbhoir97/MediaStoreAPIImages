@@ -15,7 +15,7 @@ Through This Repo you can easily get all Images of storage or Images folder wise
 
 
 	dependencies {
-	        implementation 'com.github.pratikbhoir97:MediaStoreAPIImages:-SNAPSHOT'
+	        implementation 'com.github.pratikbhoir97:MediaStoreAPIImages:0.1.0'
 	}
 	
 >step 3: HOW TO USE
